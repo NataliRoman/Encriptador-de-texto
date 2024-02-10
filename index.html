@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptar Texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 class="logo"><img src="img/logo.png" alt="  Alura  Latam ">Alura Latam</h1>
+    </header>
+
+    <main>
+        <section class="pantalla-datos">
+
+            <textarea id="ingreso" class="ingreso" cols="20" rows="1" placeholder="Ingrese el texto aqui"></textarea>
+            <section class="caja-buttons">
+                <p class="cartel-buttons">&#128712 solo letras minusculas y sin acentos</p>
+                <div class="buttons">
+                    <button class="button btn-cifrar" id="btn-cifrar">Encriptar!</button>
+                    <button class="button btn-descifrar" id="btn-descifrar">Desencriptar!</button>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="pantalla-salida">
+
+            <textarea id="salida" class="salida invisible" cols="auto" rows="auto"></textarea>
+            <div class="caja-joven">
+                <img class="joven" src="img/joven.png"  alt="">
+                <p class="cartel-salida">Ningun mensaje fue encontrado</p>
+                <p class="descripcion-salida">Ingrese el texto que desees encriptar o desencriptar </p>
+            </div>
+            <button id="btn-copia" class="button btn-copia invisible">copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy  Natali Roman - 2024</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
